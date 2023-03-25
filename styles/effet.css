@@ -1,0 +1,327 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* Debut feuille de style */
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;;
+}
+
+h1 {
+    font-size: 80px;
+    font-family: Blippo, fantasy;
+    font-weight: 150;
+    font-variant: small-caps;
+    bottom: 0px;
+    margin: 10px 10px 10px 20px;
+
+}
+
+h2 {
+
+    font-size: 60px;
+    font-family: Blippo, fantasy;
+    font-variant: small-caps;
+    text-align: center;
+    margin-top: 35px;
+    margin-left: 80px;
+    margin-right: 80px;
+    margin-bottom: 35px;
+    border-bottom: 5px solid yellowgreen;
+    padding-bottom: 35px;
+
+}
+
+h3{
+    font-size: 35px;
+    font-family: Blippo, fantasy;
+    font-variant: small-caps;
+    margin-left: 110px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+
+strong{
+    font-weight: 600;
+    color: rgb(106, 158, 29);
+}
+
+body{
+    background-color: beige;
+}
+
+#contenu{
+    margin: 0 auto;
+    width: 1000px;
+    background-color: white;
+}
+
+#contenu > header{
+
+    position: relative;
+    height: 390px;
+    background: transparent url(../images/backgroundtete.PNG);
+
+}
+#contenu > header > * {
+    position: absolute;
+}
+
+#logoPokemon{
+    
+    width: 48%;
+    position: absolute;
+    left: 25%;
+}
+
+/* Menu */
+
+nav {
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10000;
+    background-color: yellowgreen;
+    padding: 5px 0;
+    border-radius: 0 0 10px 10px;
+    
+}
+
+nav a, nav a:visited {
+    color :white;
+    position: relative;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: lighter;
+    font-family: Blippo, fantasy;
+}
+nav a:hover {
+    text-decoration: none;
+    color: black;
+}
+
+nav li {
+    display: inline-block;
+    width: 18%;
+    text-align: center;
+}
+
+nav li:last-child {
+    float: right;
+    text-align: right;
+    width: 300px;
+    padding-right: 20px;
+}
+
+/* contenu */
+
+video{
+    display: block;
+    margin-top: 30px;
+    margin-inline: auto;
+}
+
+.paragraphe{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-left: 110px;
+    margin-right: 110px;
+    background-color: lightgray;
+    font-family: "Noto Sans", sans-serif;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#logoRMXP{
+    padding-top: 25px;
+    padding-right: 5px;
+    width: 250px;
+    vertical-align: middle;
+
+}
+#logoPSP{
+    padding-left: 5px;
+    padding-top: 25px;
+    width: 250px;
+    vertical-align: middle;
+}
+
+#logoRuby{
+    padding-top: 25px;
+    width: 120px;
+    vertical-align: middle;
+}
+
+#Nostro {
+    padding-top: 10px;
+    width: 120px;
+    
+}
+
+#Umyn, #Athena, #Hera{
+    padding-top: 25px;
+}
+
+figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+figcaption {
+    margin-top: 30px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+}
+
+#heros, #heroine, #Ronan{
+    padding-top: 25px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 25px;
+}
+
+#capture1, #capture2, #capture3 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width:400px;
+}
+
+#capture1 {
+    border-radius: 80px;
+}
+
+#capture2 {
+    border-radius: 80px;
+}
+
+#capture3 {
+    border-radius: 80px;
+}
+
+
+.rectangle {
+    margin-top: 30px;
+    margin-left: 106px;
+    text-align: center;
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #444444;
+    border-radius: 4px;
+    color: #ffffff;
+    font-family: "Noto Sans", sans-serif;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in-out;
+    line-height: 30px;
+}
+
+.rectangle:hover {
+    background-color: yellowgreen;
+}
+
+.rectangle:active {
+    background-color: yellowgreen;
+
+}
+
+#dresseur1, #dresseur2, #dresseur3 {
+    padding-top: 25px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 25px;
+}
+.description{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+}
+
+/*Page des soluces */
+
+.parties {
+    margin-top: 30px;
+    margin-left: 70px;
+    line-height: 30px;
+    padding-bottom: 30px;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 20px;
+}
+
+/* Soluces */
+#btnRetour {
+
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 15px;
+}
+
+/* Captures des soluces */
+
+#capguide1, #capguide2, #capguide3{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    width:400px;
+    border-radius: 80px;
+}
+
+footer {
+    margin: 0 auto;
+    width: 1000px;
+    text-align: center;
+    background-color: yellowgreen;
+    color :white;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-variant: small-caps;
+    font-weight: lighter;
+    
+}
+
+
